@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+	<id>smftricks:areyouhuman</id>
+	<name>Are You Human</name>
+	<version>1.0</version>
+	<type>modification</type>
+	<install for="2.1 - 2.1.99">
+		<!-- Mod Readme -->
+		<readme lang="english" parsebbc="true" type="file">readme.txt</readme>
+		<!-- License -->
+		<license type="inline" parsebbc="false">
+			This Source Code Form is subject to the terms of the MIT license.
+		</license>
+		<!-- Theme Files -->
+		<require-dir name="Themes" destination="$boarddir">Theme files</require-dir>
+		<!-- Source File -->
+		<require-dir name="Sources" destination="$boarddir">Source file</require-dir>
+		<!-- Hooks -->
+		<hook hook="integrate_pre_load" function="AreYouHuman::initialize#" file="$sourcedir/Class-AreYouHuman.php" />
+	</install>
+	
+	<uninstall for="2.1 - 2.1.99">
+		<!-- Hooks Remove -->
+		<hook hook="integrate_pre_load" function="AreYouHuman::initialize#" file="$sourcedir/Class-AreYouHuman.php" reverse="true" />
+		<!-- Source File -->
+		<remove-file name="$sourcedir/Class-AreYouHuman.php">Source file</remove-file>
+		<!-- Languages -->
+		<remove-dir name="$languagedir/AreYouHuman">Language files</remove-dir>
+	</uninstall>
+</package-info>
