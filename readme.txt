@@ -8,7 +8,7 @@
 [size=2]Developed by [url="https://smftricks.com/index.php?action=profile;u=1"]Diego Andrés[/url][/size]
 [size=2]Original Developer: [url="https://www.simplemachines.org/community/index.php?action=profile;u=63186"]karlbenson[/url][/size]
 
-[img]https://img.shields.io/github/v/release/SMFTricks/Are-You-Human.svg?style=flat&logo=github&color=green[/img] [img]https://img.shields.io/badge/License-MIT-248049)[/img] [img]https://img.shields.io/badge/Hooks%20Only-Yes-6041a3[/img] [img]https://img.shields.io/badge/SMF-2.1-3f73a0[/img]
+[url=https://github.com/SMFTricks/Are-You-Human][img]https://img.shields.io/github/v/release/SMFTricks/Are-You-Human.svg?style=flat&logo=github&color=green[/img][/url] [img]https://img.shields.io/badge/License-MIT-248049)[/img] [img]https://img.shields.io/badge/Hooks%20Only-Yes-6041a3[/img] [img]https://img.shields.io/badge/SMF-2.1-3f73a0[/img]
 
 [size=4][color=#bf307a]📦 Installation[/color][/size]
 It is installed as a traditional SMF MOD for SMF 2.1.x, just grab the latest release of the package and go to: [i]Admin > Main > Package Manager > Add Packages > Package to Upload > Select File > Upload[/i].

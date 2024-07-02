@@ -4,8 +4,8 @@
  * @package Are You Human
  * @version 1.0
  * @author Diego Andrés <diegoandres_cortes@outlook.com>
- * @copyright Copyright (c) 2021, SMF Tricks
- * @license https://www.gnu.org/licenses/gpl-3.0.en.html
+ * @copyright Copyright (c) 2024, SMF Tricks
+ * @license MIT
  */
 
 if (!defined('SMF'))
